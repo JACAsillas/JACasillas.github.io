@@ -24,7 +24,17 @@ document.getElementById("summit1").onclick  = function (){
   document.getElementById("ClAv").innerHTML = numCool;
   document.getElementById("DrAv").innerHTML = numDry;
 
-  document.table.style.color = "white";
+
+  document.getElementById("fr_ev").innerHTML = evenNum(numFrz);
+  document.getElementById("cl_ev").innerHTML = evenNum(numCool);
+  document.getElementById("dr_ev").innerHTML = evenNum(numDry);
+
+  document.getElementById("fr_hi").innerHTML = Math.round(frozenCube/evenNum(numFrz));
+  document.getElementById("cl_hi").innerHTML = Math.round(coolerCube/evenNum(numCool));
+  document.getElementById("dr_hi").innerHTML = Math.round(dryCube/evenNum(numDry));
+
+
+
 
 }
 document.getElementById("summit2").onclick = function (){
@@ -78,4 +88,14 @@ cellAdd("c16");cellAdd("c17");cellAdd("c18");cellAdd("c19");cellAdd("c20");
 cellAdd("c21");cellAdd("c22");cellAdd("c23");cellAdd("c24");cellAdd("c25");
 cellAdd("c26");
 
+ let evenNum= function (num){
+   num =  Math.round(num);
+   if(num%2==0){
+     return num;
+   }
+    else{
+      return num+1;
+   }
+
+}
 

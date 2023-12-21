@@ -1,15 +1,23 @@
+body{
+  margin: 50px;
+  border-style: double;
+  padding: 100px;
+  flex-direction: row;
 
+}
 button{
   font-size:70px;
   align-content: center;
   padding-left: 30px;
   margin: auto;
+
 }
 table{
   margin: auto;
   border-style: dashed;
   border: black;
   align-content: center;
+
 }
 td{
   border-style: double;
@@ -39,6 +47,7 @@ h2{
 }
 input{
   margin-left: 250px;
+  font-size: 60px;
 }
 p{
   padding-left: 250px;

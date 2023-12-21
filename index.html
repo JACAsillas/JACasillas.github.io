@@ -14,9 +14,13 @@
 <button id="summit1" class ="summit_btn">summit</button>
 
 <br>
-<button id ="fr_button" class="window">Frozen</button>
-<button id ="cl_button" class="window">Cooler</button>
-<button id ="dr_button" class="window">Dry &nbsp</button>
+<table>
+  <tr>
+    <td><button id ="fr_button" class="window">Frozen</button></td>
+    <td><button id ="cl_button" class="window">Cooler</button></td>
+    <td><button id ="dr_button" class="window">Dry &nbsp</button></td>
+  </tr>
+</table>
 
 <br>
 <p>Per Pallet Cube</p><input id="Cube" type="number">
@@ -27,6 +31,8 @@
 <table>
   <tr> <td>Average Cube</td> <td>Frozen Pallets</td> <td>Cooler Pallets</td> <td>Dry Pallets</td> </tr>
   <tr> <td id="totalAv">-</td>  <td id="FrAv">-</td> <td id="ClAv">-</td> <td id="DrAv">-</td> </tr>
+  <tr>  <td>Even Pallets</td> <td id="fr_ev">-</td> <td id="cl_ev">-</td> <td id="dr_ev">-</td> </tr>
+  <tr>  <td>Height</td> <td id="fr_hi"></td> <td id="cl_hi"></td> <td id="dr_hi"></td> </tr>
 </table>
 <br>
 <table>
