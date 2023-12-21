@@ -1,0 +1,45 @@
+
+button{
+  font-size:70px;
+  align-content: center;
+  padding-left: 30px;
+  margin: auto;
+}
+table{
+  margin: auto;
+  border-style: dashed;
+  border: black;
+  align-content: center;
+}
+td{
+  border-style: double;
+  border-color: #888888;
+  font-size: 40px;
+  line-height: 40px;
+  outline-width: 60px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.summit_btn{
+  font-size: 20px;
+  margin-left: 250px;
+
+}
+.window{
+  margin-right: auto;
+  margin-left: auto;
+}
+h1{
+  margin: auto;
+  padding-left: 250px;
+}
+h2{
+  padding-left: 250px;
+}
+input{
+  margin-left: 250px;
+}
+p{
+  padding-left: 250px;
+}
