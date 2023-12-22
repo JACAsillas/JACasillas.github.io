@@ -7,35 +7,40 @@
 </head>
 <body>
 <h1>ICO Load Diagram</h1>
-<h2>Frozen</h2><input type="number" id="fr">
-<h2>Cooler</h2><input type="number"  id="cl">
-<h2>Dry</h2><input type="number" id="dr">
-<br>
+<div class="box">
+  <div>
+    <h2>Frozen</h2><input type="number" id="fr">
+  </div>
+  <div>
+  <h2>Cooler</h2><input type="number"  id="cl">
+  </div>
+  <div>
+  <h2>Dry</h2><input type="number" id="dr">
+  </div>
+</div>
 <button id="summit1" class ="summit_btn">summit</button>
 
 <br>
-<table>
-  <tr>
-    <td><button id ="fr_button" class="window">Frozen</button></td>
-    <td><button id ="cl_button" class="window">Cooler</button></td>
-    <td><button id ="dr_button" class="window">Dry &nbsp</button></td>
-  </tr>
-</table>
-
-<br>
-<p>Per Pallet Cube</p><input id="Cube" type="number">
-<br>
-<button id="summit2" class ="summit_btn" >summit</button>
-
-<br>
-<table>
+<table class="resultTable">
   <tr> <td>Average Cube</td> <td>Frozen Pallets</td> <td>Cooler Pallets</td> <td>Dry Pallets</td> </tr>
   <tr> <td id="totalAv">-</td>  <td id="FrAv">-</td> <td id="ClAv">-</td> <td id="DrAv">-</td> </tr>
   <tr>  <td>Even Pallets</td> <td id="fr_ev">-</td> <td id="cl_ev">-</td> <td id="dr_ev">-</td> </tr>
   <tr>  <td>Height</td> <td id="fr_hi"></td> <td id="cl_hi"></td> <td id="dr_hi"></td> </tr>
 </table>
+
+<p>Per Pallet Cube</p><input id="Cube" type="number">
 <br>
-<table>
+<button id="summit2" class ="summit_btn" >summit</button>
+
+<table class="buttonTable">
+<tr>
+  <td><button id ="fr_button" class="window">Frozen</button></td>
+  <td><button id ="cl_button" class="window">Cooler</button></td>
+  <td><button id ="dr_button" class="window">Dry &nbsp</button></td>
+</tr>
+</table>
+
+<table class="trailer">
   <tr> <td id="c1">L1</td> <td id="c2">R1</td> </tr>
   <tr> <td id="c3">L2</td> <td id="c4">R2</td> </tr>
   <tr> <td id="c5">L3</td> <td id="c6">R3</td> </tr>

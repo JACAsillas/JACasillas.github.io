@@ -6,9 +6,9 @@ let coolerCube;
 let useCube;
 
 document.getElementById("summit1").onclick  = function (){
-   frozenCube = document.getElementById("fr").value;
-   dryCube = document.getElementById("dr").value;
-   coolerCube = document.getElementById("cl").value;
+  frozenCube = document.getElementById("fr").value;
+  dryCube = document.getElementById("dr").value;
+  coolerCube = document.getElementById("cl").value;
 
   document.getElementById("dr_tl").innerHTML = dryCube;
   document.getElementById("cl_tl").innerHTML = coolerCube;
@@ -88,14 +88,13 @@ cellAdd("c16");cellAdd("c17");cellAdd("c18");cellAdd("c19");cellAdd("c20");
 cellAdd("c21");cellAdd("c22");cellAdd("c23");cellAdd("c24");cellAdd("c25");
 cellAdd("c26");
 
- let evenNum= function (num){
-   num =  Math.round(num);
-   if(num%2==0){
-     return num;
-   }
-    else{
-      return num-1;
-   }
+let evenNum= function (num){
+  num =  Math.round(num);
+  if(num%2==0){
+    return num;
+  }
+  else{
+    return num-1;
+  }
 
 }
-
