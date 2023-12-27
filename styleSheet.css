@@ -3,12 +3,13 @@ td{
 }
 table{
   border-style: groove;
+  width: 200px;
 }
 .box{
   display: flex;
 }
 .trailer{
-  margin-left: 100px;
+  margin-left: 40px;
 
 }
 .buttonTable{
@@ -20,4 +21,7 @@ table{
 input{
   font-size: 15px;
 }
-
+body{
+  color: white;
+  background-color: black;
+}
